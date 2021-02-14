@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grip bank</title>
+    <!-- css files -->
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body id="body">
+    <nav class="navbar navbar-dark  navbar-expand-md fixed-top" style="background-color: rgba(146, 22, 22, 0.795);">
+        <a class="navbar-brand " id="navbrandname"href="">Grip Bank</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01" >
+            <ul class="navbar-nav ml-auto" >
+                <li class="nav-item  ">
+                    <a class="nav-link" href="">Home</a>
+                </li>
+                <li class="nav-item" >
+                    <a class="nav-link" href="/users/showusers">Customers</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/hist/history">Transcations</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/newuser">New user</a>
+                </li>
+    
+            </ul>
+        </div>
+    </nav>
+    <section id="home-top">
+        <div class="container-fluid">
+            <div class=row>
+                <div class="col-md-6 intro">
+                    <h1>Welcome To Grip Bank</h1>
+                    <p>Making Your Banking Easy And Secure.</p>
+                    <button onclick="movePage()" class="btn btn-danger btn-lg join">Join</button>
+                    <button class="btn btn-danger btn-lg android">Android App</button>
+
+                </div>
+                <div class="col-md-6 ">
+                    <img class="bnkimg"src="images/bank-getty.jpg"  alt="">
+                </div>
+            </div> 
+
+        </div>
+    </section>
+
+    <section id="home-mid">
+        <div class="row">
+            <div class="col-md-4">
+               <h2>Easy Transaction</h2>
+               <img class="midimg"src="images/easy.png" alt="">
+            </div>
+            <div class="col-md-4">
+                <h2>Secure</h2>
+                <img class="midimg"src="images/secure.png" alt="">
+                
+            </div>
+            <div class="col-md-4">
+                <h2>24 X 7 Support</h2>
+                <img class="midimg"src="images/support.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="home-end">
+        <div class="about">
+            <h1>About Grip Bank</h1>
+            <p>Grip Bank is an Indian Based Bank, expanded WorldWide for international and local transactions. 
+                Provides easy and Fast Money Transfer from anywhere around the world. Secure payment and 24X7 service.<br>Join us Experience Convenient Banking.
+        </div>
+        <div class="contact">
+            <h1>Contact Us</h1>
+            <p> Helpline Number : 144-XXX-XXX-XXX | 142-XXX-XXX-XXX</p>
+            <p>Branches : Pune,Mumbai,Delhi and Goa.</p>
+        </div>
+
+      
+    </section>
+    <footer>
+        @2021 Made By Akash Bendre <br> The Spark Foundation
+    </footer>
+    
+    <script>
+        function movePage(){
+            location.href="newuser";
+
+        }
+    </script>
+    
+</body>
+</html>

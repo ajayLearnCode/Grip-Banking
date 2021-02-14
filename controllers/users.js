@@ -1,0 +1,24 @@
+// var express = require('express');
+var mysql = require('mysql');
+const jwt=require("jsonwebtoken");
+
+
+const db=mysql.createConnection({
+    host:'localhost',
+    user:'root',
+    password:'',
+    database:'bankusers'
+});
+
+// another routes also appear here
+// this script to fetch data from MySQL databse table
+exports.register=(req,res)=>{
+  console.log("we have activated userdisplay!!");
+    //var query='SELECT * FROM users';
+    db.query('SELECT * FROM users', function (err, data,fields) {
+    if (err) throw err;
+    else{
+      res.render('showusers', {userData: data}); 
+    }
+  });
+}

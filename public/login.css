@@ -1,0 +1,54 @@
+body{
+    background-color:#fdcb9e;     
+}
+
+#navbrandname{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    margin: 0px 30px;   
+}
+
+.userlogin{
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    background-color: tomato;
+    width: 600px;
+    height: 300px;
+    border-radius: 70px;
+}
+.loginimg{
+    height: 200px;
+    width: 200px;
+}
+.ig{
+    display: inline-flex;
+    padding: 50px
+}
+.details{
+    display: inline-flex;
+    padding: 10px;
+    margin-top: 50px;
+    
+}
+
+.info{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    opacity: 0.7;
+    border-style: none;
+}
+
+footer{
+    margin-top: 100px;
+    background-color:tomato;
+    color: white;
+    padding: 1% 15%;
+    font-weight: 500;
+    text-align: center;
+}
