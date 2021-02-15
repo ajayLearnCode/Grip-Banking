@@ -43,6 +43,6 @@ app.use('/users',require('./routes/users'));
 
 
 
-app.listen(5000,()=>{
+app.listen(3306,()=>{
     console.log("server started");
 });
