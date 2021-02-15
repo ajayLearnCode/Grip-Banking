@@ -55,7 +55,10 @@ footer{
 
 @media screen and (min-width: 480px) {
     .userlogin{
-        width: 40%;
+        width: 60%;
         height: 30%;
+    }
+    .loginimg{
+        display: none;
     }
   }
